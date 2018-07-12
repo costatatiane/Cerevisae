@@ -7,19 +7,41 @@ header{
     display: flex;
     margin: 0;
     justify-content: center;
-    align-items: center;
-    background-color: black;
-    height: 20vh;
+    flex-direction: column;
+    background-color: rgb(18, 9, 0);
+    height: 18vh;
+}
+
+#organizacao{
+    display: flex;
+    margin: 0;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+#hamburguer img{
+    margin: 50px 0 0 0;
+    height: 50px;
+    width: 40px
+}
+
+#busca img{
+    margin: 50px 0 0 0;
+    height: 23px;
 }
 
 header h1{
+    display: flex;
+    margin-top: 5px;
     color: white;
+    font-family: 'Copse', serif;
+    font-size: 20pt;
+    align-items: flex-end;
+    justify-content: center;
 }
 
-header h2{
-    color: white;
-}
-
-header div img{
-    height: 15vh;
+#logo img{
+    height: 12vh;
+    margin-top: 4px;
 }
