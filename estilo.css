@@ -9,7 +9,7 @@ header{
     justify-content: center;
     flex-direction: column;
     background-color: rgb(18, 9, 0);
-    height: 18vh;
+    height: 16vh;
 }
 
 #organizacao{
@@ -34,6 +34,7 @@ header{
 header h1{
     display: flex;
     margin-top: 5px;
+    margin-bottom: 1px;
     color: white;
     font-family: 'Copse', serif;
     font-size: 20pt;
@@ -44,4 +45,55 @@ header h1{
 #logo img{
     height: 12vh;
     margin-top: 4px;
+}
+
+.capa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 100vw;
+}
+
+.capa img{
+    width: 100vw;
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(18, 9, 0);
+    margin-top: 10px;
+    height: 80px;
+}
+
+.botao1{
+    display: block;
+    background-image: url(imagens/botao-fb.png);
+    width: 45px;
+    height: 60px;
+    background-color: white;
+    border: none;
+    margin: 0 22px;
+}
+
+.botao2{
+    display: block;
+    background-image: url(imagens/botao-ig.png);
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border: none;
+    margin: 0 22px;
+}
+
+.botao3{
+    display: block;
+    background-image: url(imagens/botao-wpp.png);
+    width: 50px;
+    height: 60px;
+    background-color: white;
+    border: none;
+    margin: 0 22px;
 }
