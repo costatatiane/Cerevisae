@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+header{
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 20vh;
+}
+
+header h1{
+    color: white;
+}
+
+header h2{
+    color: white;
+}
+
+header div img{
+    height: 15vh;
+}
