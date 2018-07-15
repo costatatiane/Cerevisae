@@ -31,13 +31,13 @@ header{
 }
 
 #hamburguer img{
-    margin: 50px 0 0 0;
+    margin: 50px 25px 0 0;
     height: 50px;
     width: 40px
 }
 
 #busca img{
-    margin: 50px 0 0 0;
+    margin: 50px 0 0 25px;
     height: 23px;
 }
 
@@ -205,6 +205,8 @@ p{
 
 .types{
     border-radius: 50%;
+    width: 150px;
+    height: 150px;
 }
 
 #primeira{
@@ -215,8 +217,14 @@ p{
     width: 4%;
 }
 
+.nomes p{
+    font-family: 'Encode Sans Condensed', sans-serif;
+    color: rgb(18, 9, 0);
+    font-size: 12pt;
+    font-weight: bold;
+}
 #vitrine{
-    margin-top: 5px;
+    margin: 10px 0; 
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -244,6 +252,7 @@ p{
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    margin: 5px 0;
 }
 
 #menu{
@@ -270,7 +279,7 @@ p{
 
 .banner{
     display: flex;
-    width: auto;
+    width: 100vw;
     background-color: gray;
     align-items: center;
     animation-name: mover;
@@ -279,7 +288,7 @@ p{
     animation-timing-function: linear;
 }
 
-.banner img{
+.img100{
     margin: 0 2%;
 }
 
@@ -300,9 +309,10 @@ p{
 }
 
 h4{
-    font-size: 50pt;
+    font-size: 20pt;
     width: 100vw;
     padding: 0 0 0 5px;
+    margin: 20px 0;
 }
 
 section .banner{
@@ -312,7 +322,15 @@ section .banner{
 
 .texto{
     display: flex;
+    width: 85vw;
     margin: 0 0 2% 2%;
+}
+
+#segunda p{
+    font-family: 'Encode Sans Condensed', sans-serif;
+    color: rgb(18, 9, 0);
+    font-size: 9pt;
+    text-align: justify;
 }
 
 @keyframes cor{
