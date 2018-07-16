@@ -12,18 +12,15 @@ body:nth-child(3){
     height: 0.5vh;
     background-color: rgb(255, 202, 16);
 }
+
 header{
     display: flex;
     margin: 0;
     justify-content: center;
     flex-direction: column;
     background-color: rgb(18, 9, 0);
-    height: 17vh;    
+    height: 17vh;
 }
-
-/* header input{
-    display: none;
-} */
 
 header nav{
     display: none;
@@ -91,6 +88,20 @@ header h1{
     max-height: 82vh;
 }
 
+.capa div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    max-width: 18vw;
+    display: none;
+}
+
+.capa div img{
+    width: 18vw;
+    height: 27.3vh;
+}
+
 #final{
     margin: 0;
     background-color: rgb(255, 202, 16);
@@ -129,6 +140,7 @@ header h1{
     color: rgb(18, 9, 0);
     font-size: 8pt;
     text-align: center;
+    margin-top: 10px;
 }
 
 #final input{
@@ -151,7 +163,7 @@ header h1{
     width: 50px;
     height: 20px;
     border-radius: 10%;
-    margin-bottom: 10px;
+    margin: 5px 0;
 }
 
 footer{
@@ -238,10 +250,25 @@ p{
     margin: 4px;
 }
 
+#divisao{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(18, 9, 0);
+    color:rgb(255, 202, 16);
+    font-size: 20pt;
+    height: 7vh;
+    widows: 100vw;
+    font-family: 'Encode Sans Condensed', sans-serif;
+}
+
 .types{
     border-radius: 50%;
     width: 150px;
     height: 150px;
+    border: 1px;
+    border-color: black solid;
 }
 
 #primeira{
@@ -304,6 +331,8 @@ p{
     margin: 0.5%;
     width: 30px;
     height: 30px;
+    color: white;
+    font-family: 'Encode Sans Condensed', sans-serif;
 }
 
 #segunda{
@@ -315,10 +344,12 @@ p{
 .banner{
     display: flex;
     width: 100vw;
-    background-color: gray;
+    background-color:  rgb(18, 9, 0);
     align-items: center;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    color: white;
     animation-name: mover;
-    animation-duration: 30s;
+    animation-duration: 60s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
@@ -329,25 +360,25 @@ p{
 
 @keyframes mover{
     0%{transform: translate(0)}
-    10%{transform: translate(0)}
+    15%{transform: translate(0)}
     16.5%{transform: translate(-100vw)}
-    26.5%{transform: translate(-100vw)}
+    31.5%{transform: translate(-100vw)}
     33%{transform: translate(-200vw)}
-    43%{transform: translate(-200vw)}
+    48%{transform: translate(-200vw)}
     49.5%{transform: translate(-300vw)}
-    59.5%{transform: translate(-300vw)}
+    64.5%{transform: translate(-300vw)}
     66%{transform: translate(-400vw)}
-    76%{transform: translate(-400vw)}
+    81%{transform: translate(-400vw)}
     82.5%{transform: translate(-500vw)}
     99%{transform: translate(-500vw)}
     100%{transform: translate(0)}
 }
 
 h4{
-    font-size: 20pt;
+    font-size: 15pt;
     width: 100vw;
-    padding: 0 0 0 5px;
-    margin: 20px 0;
+    padding: 0 0 0 12vw;
+    margin: 5px 0 20px 0;
 }
 
 section .banner{
@@ -358,30 +389,16 @@ section .banner{
 .texto{
     display: flex;
     width: 85vw;
-    margin: 0 0 2% 2%;
+    margin: 0 9% 2% 2%;
 }
 
 #segunda p{
     font-family: 'Encode Sans Condensed', sans-serif;
-    color: rgb(18, 9, 0);
+    color: white;
     font-size: 9pt;
     text-align: justify;
 }
 
-@keyframes cor{
-    0%{
-        background-color: aquamarine;
-    }
-    10%{
-        background-color: yellow
-    }
-    90%{
-        background-color: yellow
-    }
-    100%{
-        background-color: aquamarine;
-    }
-}
 .img100 img{
     height: 100px;
     width: 100px;
@@ -389,80 +406,80 @@ section .banner{
 
 #menu .um{
     animation-name: cor1;
-    animation-duration: 30s;
+    animation-duration: 60s;
     animation-iteration-count: infinite;
 } 
 
 #menu .dois{
     animation-name: cor2;
-    animation-duration: 30s;
+    animation-duration: 60s;
     animation-iteration-count: infinite;
 } 
 #menu .tres{
     animation-name: cor3;
-    animation-duration: 30s;
+    animation-duration: 60s;
     animation-iteration-count: infinite;
 } 
 #menu .quatro{
     animation-name: cor4;
-    animation-duration: 30s;
+    animation-duration: 60s;
     animation-iteration-count: infinite;
 } 
 #menu .cinco{
     animation-name: cor5;
-    animation-duration: 30s;
+    animation-duration: 60s;
     animation-iteration-count: infinite;
 } 
 #menu .seis{
     animation-name: cor6;
-    animation-duration: 30s;
+    animation-duration: 60s;
     animation-iteration-count: infinite;
 } 
 
 @keyframes cor1{
-    0%{background-color: yellow}
-    10%{background-color: yellow}
-    16.5%{background-color: aquamarine}
-    100%{background-color: aquamarine}
+    0%{background-color:rgb(255, 202, 16)}
+    15%{background-color:rgb(255, 202, 16)}
+    16.5%{background-color:rgb(18, 9, 0)}
+    100%{background-color: rgb(18, 9, 0)}
 }
 @keyframes cor2{
-    0%{background-color: aquamarine}
-    10%{background-color: aquamarine}
-    16.5%{background-color: yellow}
-    26.5%{background-color: yellow}
-    33%{background-color: aquamarine}
-    100%{background-color: aquamarine}
+    0%{background-color: rgb(18, 9, 0)}
+    15%{background-color: rgb(18, 9, 0)}
+    16.5%{background-color:rgb(255, 202, 16)}
+    31.5%{background-color:rgb(255, 202, 16)}
+    33%{background-color: rgb(18, 9, 0)}
+    100%{background-color: rgb(18, 9, 0)}
 }
 @keyframes cor3{
-    0%{background-color: aquamarine}
-    26.5%{background-color: aquamarine}
-    33%{background-color: yellow}
-    43%{background-color: yellow}
-    49.5%{background-color: aquamarine}
-    100%{background-color: aquamarine}
+    0%{background-color: rgb(18, 9, 0)}
+    31.5%{background-color: rgb(18, 9, 0)}
+    33%{background-color:rgb(255, 202, 16)}
+    48%{background-color:rgb(255, 202, 16)}
+    49.5%{background-color: rgb(18, 9, 0)}
+    100%{background-color: rgb(18, 9, 0)}
 }
 @keyframes cor4{
-    0%{background-color: aquamarine}
-    43%{background-color: aquamarine}
-    49.5%{background-color: yellow}
-    59.5%{background-color: yellow}
-    66%{background-color: aquamarine}
-    100%{background-color: aquamarine}
+    0%{background-color: rgb(18, 9, 0)}
+    48%{background-color: rgb(18, 9, 0)}
+    49.5%{background-color:rgb(255, 202, 16)}
+    64.5%{background-color: rgb(255, 202, 16)}
+    66%{background-color: rgb(18, 9, 0)}
+    100%{background-color: rgb(18, 9, 0)}
 }
 @keyframes cor5{
-    0%{background-color: aquamarine}
-    59.5%{background-color: aquamarine}
-    66%{background-color: yellow}
-    76%{background-color: yellow}
-    82.5%{background-color: aquamarine}
-    100%{background-color: aquamarine}
+    0%{background-color: rgb(18, 9, 0)}
+    64.5%{background-color: rgb(18, 9, 0)}
+    66%{background-color: rgb(255, 202, 16)}
+    81%{background-color: rgb(255, 202, 16)}
+    82.5%{background-color: rgb(18, 9, 0)}
+    100%{background-color: rgb(18, 9, 0)}
 }
 @keyframes cor6{
-    0%{background-color: aquamarine}
-    76%{background-color: aquamarine}
-    82.5%{background-color: yellow}
-    99%{background-color: yellow}
-    100%{background-color: aquamarine}
+    0%{background-color: rgb(18, 9, 0)}
+    81%{background-color: rgb(18, 9, 0)}
+    82.5%{background-color: rgb(255, 202, 16)}
+    99%{background-color: rgb(255, 202, 16)}
+    100%{background-color: rgb(18, 9, 0)}
 }
 
 @media (min-width: 645px){
@@ -493,6 +510,21 @@ section .banner{
         width: 70px;
         height: 30px;
     }
+
+    h4{
+        padding: 0 0 0 25vw;
+        margin: 20px 0;
+        font-size: 20pt;
+    }
+
+    div.texto{
+        width: 70vw;
+    }
+
+    #segunda p{
+        font-size: 10pt;
+    }
+
 }
 
 @media (min-width: 730px){
@@ -524,6 +556,11 @@ section .banner{
         align-items: center;
         justify-content: space-around;
     }
+
+    h4{
+        padding: 0 0 0 26vw;
+        margin: 20px 0;
+    }
 }
 
 @media (min-width: 1080px){
@@ -535,6 +572,7 @@ section .banner{
     header h1{
         font-size: 32pt;
     }
+
     #final h2, h3{
         font-size: 25pt;
     }
@@ -559,5 +597,23 @@ section .banner{
         border: 0;
         width: 80px;
         height: 35px;
+    }
+
+    h4{
+        padding: 0 0 0 35vw;
+        margin: 20px 0;
+        font-size: 20pt;
+    }
+
+    div.texto{
+        width: 60vw;
+    }
+
+    #segunda p{
+        font-size: 13pt;
+    }
+
+    .capa div{
+        display: flex;
     }
 }
